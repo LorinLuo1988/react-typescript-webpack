@@ -7,20 +7,19 @@ const RouteWrapper = ({ routes = [] }) => {
     <Route
       key={route.path}
       path={route.path}
-      render={
-        props => (
+      render={ props => (
           <route.component routes={route.children} {...props} />
         )
       }
       exact={false}
-      strict={true}>
-    </Route>
+      strict={true}
+    />
   ))
 
   return routes.length ? (
     <Switch>
       {Routes}
-      <Redirect to={routes[0].path}/>
+      <Redirect to={routes[0].path} />
     </Switch>
   ) : null
 }

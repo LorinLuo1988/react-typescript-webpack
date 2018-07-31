@@ -1,0 +1,47 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rules": {
+    // 引号
+    "quotemark": [true, "single", "jsx-double"],
+    // 语句末尾分号
+    "semicolon": [true, "never"],
+    // 文件末尾是否必须加空行
+    "eofline": false,
+    // 箭头函数参数是否需要圆括号（单参数不能使用圆括号, 除非有默认值的情况）
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    // 不许空的代码块
+    "no-empty": [true, "allow-empty-catch", "allow-empty-functions"],
+    // imort语句引入的变量是否要按字母的顺序进行导入
+    "ordered-imports": false,
+    // 是否需要尾逗号
+    "trailing-comma": false,
+    // 缩进
+    "indent": [true, "spaces", 2],
+    // 函数或者方法的括号前面是否要加空格
+    "space-before-function-paren": true,
+    // 语句结尾是否禁止加空格
+    "no-trailing-whitespace": false,
+    // if/for/do/while语句的代码块是否必须加花括号
+    "curly": false,
+    // 调用parseInt时是否必须加上第二个参数
+    "radix": false,
+    // 是否禁止使用传统（无箭头函数）的函数表达式
+    "only-arrow-functions": false,
+    // 对象的键名是否按字母的顺序进行排列
+    "object-literal-sort-keys": false,
+    // 类的成员是否需要显式标识访问权限（public、private、protected）
+    "member-access": [true, "no-public"],
+    // 是否禁止console的调用
+    "no-console": false,
+    // 是否允许重复的变量名
+    "no-shadowed-variable": false,
+    "no-unused-expression": false,
+    // tslint-react
+    // jsx属性是否禁止箭头函数
+    "jsx-no-lambda": false,
+    // jsx表达式中是否允许写多行js语句
+    "jsx-no-multiline-js": false,
+    // 对多行JSX元素执行一致的样式
+    "jsx-alignment": false
+  }
+}

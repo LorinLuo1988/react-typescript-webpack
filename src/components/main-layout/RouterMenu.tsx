@@ -8,17 +8,17 @@ import { updateRouterMenuAction } from '@redux/common'
 const { Item: MenuItem, SubMenu } = Menu
 
 class RouterMenu extends React.PureComponent {
-  constructor (props) {
-    super(props)
-
-    this.routeRecursion = this.routeRecursion.bind(this)
-    this.handleOpenChange = this.handleOpenChange.bind(this)
-  }
   static propTypes = {
     selectedKeys: PropTypes.array.isRequired,
     openKeys: PropTypes.array.isRequired,
     router: PropTypes.object.isRequired,
     updateRouterMenuAction: PropTypes.func.isRequired
+  }
+  constructor (props) {
+    super(props)
+
+    this.routeRecursion = this.routeRecursion.bind(this)
+    this.handleOpenChange = this.handleOpenChange.bind(this)
   }
   handleOpenChange ({ key }) {
     const { openKeys, updateRouterMenuAction } = this.props
@@ -40,7 +40,7 @@ class RouterMenu extends React.PureComponent {
           title={(
             <span>
               <Icon type={route.icon} />
-              { route.title }
+              {route.title}
             </span>
           )}
           onTitleClick={this.handleOpenChange}>

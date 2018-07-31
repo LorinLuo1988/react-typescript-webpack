@@ -14,10 +14,10 @@ const findParentsByKey = (path = '/', parent = [], key = 'id') => {
     return null
   }
 
-  //开始找
+  // 开始找
   let findKeyList = null
 
-  for (let child of children) {
+  for (const child of children) {
     findKeyList = findParentsByKey(path, child, key)
     
     // 已经找到，退出循环
@@ -26,15 +26,15 @@ const findParentsByKey = (path = '/', parent = [], key = 'id') => {
     }
   }
 
-  //没找到 ，返回空
+  // 没找到 ，返回空
   if (findKeyList === null) {
     return null
   }
 
-  //子节点中找到了，添加一下
-  //先添加自己
+  // 子节点中找到了，添加一下
+  // 先添加自己
   keyList.push(parent[key])
-  //再添加子节点的list
+  // 再添加子节点的list
   keyList = keyList.concat(findKeyList)
 
   return keyList

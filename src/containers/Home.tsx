@@ -1,6 +1,9 @@
 import * as React from 'react'
 import { PageHeader } from '@components/common'
 
+const str: string = 1
+console.log(str)
+
 const Home = () => {
   return (
     <div>

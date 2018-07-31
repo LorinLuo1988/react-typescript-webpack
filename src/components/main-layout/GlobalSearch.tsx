@@ -21,10 +21,14 @@ class GlobalSearch extends React.PureComponent {
   }
   render () {
     const { searchValue } = this.state
-    const suffix = <Icon
-      type="search"
-      style={{ cursor: 'pointer' }}
-      onClick={this.search} />
+    const suffix = (
+      <Icon
+        type="search"
+        style={{ cursor: 'pointer' }}
+        onClick={this.search}
+      />
+    )
+
     return (
       <Input
         value={searchValue}
@@ -32,7 +36,8 @@ class GlobalSearch extends React.PureComponent {
         onChange={this.searchChange}
         onPressEnter={this.search}
         placeholder="搜索案件姓名、诉讼案号"
-        style={{ width: 300, marginLeft: 60 }} />
+        style={{ width: 300, marginLeft: 60 }}
+      />
     )
   }
 }

@@ -7,7 +7,14 @@ const lessToJs = require('less-vars-to-js')
 const antdThemeVariables = lessToJs(fs.readFileSync(path.resolve(__dirname, '../src/styles/antd-theme.less'), 'utf8'))
 const defaultLoaders = {
   'jsx?': ['babel-loader?cacheDirectory'],
-  'jsx?.eslint': ['eslint-loader'],
+  'eslint': process.env.NODE_ENV === 'development' ? ['source-map-loader', 'eslint-loader'] : ['eslint-loader'],
+  'tslint': process.env.NODE_ENV === 'development' ? ['source-map-loader', {
+    loader: 'tslint-loader',
+    options: {
+      typeCheck: true,
+      emitErrors: true
+    }
+  }] : ['tslint-loader?emitErrors'],
   'tsx?': ['babel-loader', 'ts-loader?happyPackMode'],
   'css.development': ['style-loader', 'css-loader', 'postcss-loader'],
   'css.development.modules': [

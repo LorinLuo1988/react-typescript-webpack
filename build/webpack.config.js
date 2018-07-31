@@ -67,7 +67,8 @@ const plugins = [
     antdCssName: `${NODE_ENV}/${bundleConfig.antd.css}`, // 把带hash的dll css插入到html中
     vendorCssName: `${NODE_ENV}/${bundleConfig.vendor.css}` // 把带hash的dll css插入到html中
   }),
-  happypackFactory('jsx?.eslint'),
+  happypackFactory('eslint'),
+  happypackFactory('tslint'),
   happypackFactory('jsx?'),
   happypackFactory('tsx?')
 ]
@@ -93,13 +94,13 @@ let commonConfig = {
 				enforce: 'pre', //防止eslint在代码检查前，代码被其他loader修改
 				test: /\.jsx?$/,
 				exclude: /node_modules/,
-				use: 'happypack/loader?id=jsx?.eslint'
+				use: 'happypack/loader?id=eslint'
 			},
       {
-        enforce: 'pre', //防止eslint在代码检查前，代码被其他loader修改
+        enforce: 'pre', //防止tslint在代码检查前，代码被其他loader修改
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: 'happypack/loader?id=jsx?.eslint'
+        use: 'happypack/loader?id=tslint'
       },
       {
 				test: /\.jsx?$/,

@@ -1,5 +1,5 @@
-const setStorage = (storage) => (key, value) => storage.setItem(key, JSON.stringify(value))
-const getStorage = (storage) => (key, jsonParse = true) => {
+const setStorage = storage => (key, value) => storage.setItem(key, JSON.stringify(value))
+const getStorage = storage => (key, jsonParse = true) => {
   try {
     const str = storage.getItem(key)
 
@@ -9,7 +9,7 @@ const getStorage = (storage) => (key, jsonParse = true) => {
   }
 }
 
-const clearStorage = (storage) => (key) => storage.removeItem(key)
+const clearStorage = storage => key => storage.removeItem(key)
 
 const setLocalStorage = setStorage(localStorage)
 const getLocalStorage = getStorage(localStorage)

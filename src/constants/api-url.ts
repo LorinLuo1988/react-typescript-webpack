@@ -1,4 +1,4 @@
-let API_URL = {}
+const API_URL = {}
 
 // 登录注销
 API_URL.admin = {

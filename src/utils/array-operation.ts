@@ -46,7 +46,7 @@ const traversalArr = (arr = [], options = {}) => {
   const mismatchCallback = options.mismatchCallback || noop
   const fristMatchStop = options.fristMatchStop || false
 
-  for (let item of arr) {
+  for (const item of arr) {
     if (conditionFn(item)) {
       matchCallback(item, arr)
 

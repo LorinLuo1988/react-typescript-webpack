@@ -20,7 +20,8 @@ module.exports = {
 	// 此项是用来提供插件的，插件名称省略了eslint-plugin-，下面这个配置是用来规范html和react的
 	plugins: [
 		'html',
-		'react'
+		'react',
+		'typescript'
 	],
 	// add your custom rules here
 	// 下面这些rules是用来设置从插件来的规范代码的规则，使用必须去掉前缀eslint-plugin-
@@ -36,7 +37,10 @@ module.exports = {
 		'no-tabs': 'off', // 禁用 tab
 		'no-useless-escape': 'off', // 禁用不必要的转义字符
 		'no-console': 'off', // 禁用 console
-		'react/display-name': ['off']
+		'semi': ['off'],
+		'react/display-name': ['off'],
+		'no-undef': 'off',
+		'typescript/no-unused-vars': 'error'
 	},
 	globals: {
 		API_ROOT: false,

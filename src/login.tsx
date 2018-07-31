@@ -23,7 +23,7 @@ axios.defaults.timeout = 50000
 const renderApp = () => {
   render(
     <LocaleProvider locale={zh_CN}>
-      <Login></Login>
+      <Login />
     </LocaleProvider>,
     document.getElementById('app')
   )

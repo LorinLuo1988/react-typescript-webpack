@@ -6,7 +6,7 @@ import { logoutAction } from '@/redux/login'
 
 const { Item: MenuItem } = Menu
 
-const DropdownMenu = (onClickMenu) => {
+const DropdownMenu = onClickMenu => {
   return (
     <Menu onClick={onClickMenu}>
       <MenuItem key="changePassword">

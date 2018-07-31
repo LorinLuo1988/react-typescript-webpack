@@ -45,7 +45,7 @@ function updateToken (state, action) {
 }
 
 // saga
-function* login(option) {
+function* login (option) {
   try {
     const {data: {token: token}} = yield call(loginService.login, { data: option.payload })
     setLocalStorage('token', token)
@@ -56,7 +56,7 @@ function* login(option) {
   }
 }
 
-function* logout() {
+function* logout () {
   yield call(loginService.logout)
   clearLocalStorage('token')
   window.location.href = '/login'

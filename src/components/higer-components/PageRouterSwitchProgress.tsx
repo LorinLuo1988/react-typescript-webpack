@@ -3,7 +3,7 @@ import 'nprogress/nprogress.css'
 import Nprogress from 'nprogress'
 import * as PropTypes from 'prop-types'
 
-const PageRouterSwitchProgress = (WrappedComponent) => {
+const PageRouterSwitchProgress = WrappedComponent => {
   class PageRouterSwitchProgress extends React.PureComponent {
     static propTypes = {
       history: PropTypes.object.isRequired
@@ -27,7 +27,7 @@ const PageRouterSwitchProgress = (WrappedComponent) => {
       Nprogress.done()
     }
     render () {
-      return <WrappedComponent {...this.props}></WrappedComponent>
+      return <WrappedComponent {...this.props} />
     }
   }
 

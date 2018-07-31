@@ -93,15 +93,15 @@ class Root extends Component {
     return (
       <Router>
         <Switch>
-          <Route path="/login" component={Login}></Route>
+          <Route path="/login" component={Login} />
           {
             loadingUserInfo ? null : (
               <Route path="/">
                 <Layout userName={userName}>
                   <Switch>
-                    <RouteWrapper routes={router.children || []}></RouteWrapper>
-                    <Redirect from='//' to='/home'/>
-                    <Route component={MissWay}></Route>
+                    <RouteWrapper routes={router.children || []} />
+                    <Redirect from="//" to="/home"/>
+                    <Route component={MissWay} />
                   </Switch>
                 </Layout>
               </Route>

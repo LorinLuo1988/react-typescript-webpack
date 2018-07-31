@@ -19,15 +19,15 @@ class MainLayout extends Component {
       <Layout className="main-layout">
         <Header className="header">
           <div className="pull-left">
-            <CompanyInfo className="company-info" companyAvator={require('@/imgs/common/logo.png')}></CompanyInfo>
+            <CompanyInfo className="company-info" companyAvator={require('@/imgs/common/logo.png')} />
           </div>
           <div className="pull-right">
-            <User userName={this.props.userName}></User>
+            <User userName={this.props.userName} />
           </div>
         </Header>
         <Layout className="content-layout">
           <Sider className="sider">
-            <RouterMenu></RouterMenu>
+            <RouterMenu />
           </Sider>
           <Layout className="content">
             <Content style={{ position: 'relative' }}>
@@ -39,6 +39,5 @@ class MainLayout extends Component {
     )
   }
 }
-
 
 export default MainLayout

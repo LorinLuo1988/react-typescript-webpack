@@ -44,6 +44,6 @@ if (process.env.ENV === 'mock') {
 }
 
 // react热更新
-if (process.env.NODE_ENV === 'development' && module.hot){
+if (process.env.NODE_ENV === 'development' && module.hot) {
   module.hot.accept()
 }

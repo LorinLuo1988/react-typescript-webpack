@@ -5,7 +5,8 @@
     "module": "es6",
     "target": "es6", // 编译成 ES2015 (Babel 将做剩下的事情)
     "jsx": "preserve",
-    "allowJs": true
+    "allowJs": true,
+    "sourceMap": true
   },
   "include": [
     "./src/**/*"

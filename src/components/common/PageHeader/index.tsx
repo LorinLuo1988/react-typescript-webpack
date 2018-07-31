@@ -8,8 +8,8 @@ const PageHeader = ({title, extra}) => {
     <Card
       className={styles['page-header']}
       title={title}
-      extra={extra}>
-    </Card>
+      extra={extra}
+    />
   )
 }
 

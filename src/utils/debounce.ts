@@ -7,7 +7,7 @@ export const debounce = (fn, delay = 200) => {
     if (timer) {
       clearTimeout(timer)
     }
-    
+
     timer = setTimeout(() => {
       fn.apply(ctx, args)
     }, delay)
@@ -16,8 +16,8 @@ export const debounce = (fn, delay = 200) => {
 
 // 函数节流
 export const throttle = (fn, wait = 200) => {
-  let timer,
-    isFirst = true
+  let timer
+  let isFirst = true
   return function (...args) {
     const ctx = this
     if (isFirst) {
