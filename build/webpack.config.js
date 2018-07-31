@@ -6,6 +6,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const fs = require('fs')
 const utils = require('./utils')
 const happypackFactory = require('./happypack')
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 
 const NODE_ENV = process.env.NODE_ENV
 const ROOT_PATH = path.resolve(__dirname, '../')
@@ -67,10 +68,15 @@ const plugins = [
     antdCssName: `${NODE_ENV}/${bundleConfig.antd.css}`, // 把带hash的dll css插入到html中
     vendorCssName: `${NODE_ENV}/${bundleConfig.vendor.css}` // 把带hash的dll css插入到html中
   }),
+  new ForkTsCheckerWebpackPlugin({
+    async: false, // 改为同步方式，以至于可以将错误信息显示到浏览器中
+    checkSyntacticErrors : true
+  }),
   happypackFactory('eslint'),
   happypackFactory('tslint'),
   happypackFactory('jsx?'),
-  happypackFactory('tsx?')
+  happypackFactory('babel'),
+  happypackFactory('ts')
 ]
 
 // 是否要启动bundle分析
@@ -111,7 +117,8 @@ let commonConfig = {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         use: [
-          'happypack/loader?id=tsx?'
+          'happypack/loader?id=babel',
+          'happypack/loader?id=ts'
         ]
       },
 			{

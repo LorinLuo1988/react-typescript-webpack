@@ -8,14 +8,9 @@ const antdThemeVariables = lessToJs(fs.readFileSync(path.resolve(__dirname, '../
 const defaultLoaders = {
   'jsx?': ['babel-loader?cacheDirectory'],
   'eslint': process.env.NODE_ENV === 'development' ? ['source-map-loader', 'eslint-loader'] : ['eslint-loader'],
-  'tslint': process.env.NODE_ENV === 'development' ? ['source-map-loader', {
-    loader: 'tslint-loader',
-    options: {
-      typeCheck: true,
-      emitErrors: true
-    }
-  }] : ['tslint-loader?emitErrors'],
-  'tsx?': ['babel-loader', 'ts-loader?happyPackMode'],
+  'tslint': process.env.NODE_ENV === 'development' ? ['source-map-loader', 'tslint-loader?emitErrors'] : ['tslint-loader?emitErrors'],
+  'babel': ['babel-loader'],
+  'ts': ['ts-loader?happyPackMode&transpileOnly'],
   'css.development': ['style-loader', 'css-loader', 'postcss-loader'],
   'css.development.modules': [
     'style-loader',
@@ -135,6 +130,7 @@ const happypackFactory = (id = '', options = {}) => {
   return new Happypack({
     id,
     threads: 4,
+    debug: true,
     ...options
   })
 }
