@@ -40,8 +40,8 @@ const plugins = [
   new webpack.DllReferencePlugin({
     manifest: path.resolve(ROOT_PATH, `dist/dll/${NODE_ENV}/redux-manifest.json`)
   }),
-	new HtmlWebpackPlugin({
-		favicon: path.resolve(SRC_PATH, 'favicon.ico'),
+  new HtmlWebpackPlugin({
+    favicon: path.resolve(SRC_PATH, 'favicon.ico'),
     template: path.resolve(SRC_PATH, 'index.html'),
     filename: path.resolve(ROOT_PATH, 'dist/index.html'),
     chunks: ['index'],
@@ -53,7 +53,7 @@ const plugins = [
     devWebpackBundleName: `${NODE_ENV}/${bundleConfig.devWebpack ? bundleConfig.devWebpack.js : ''}`, // 把带hash的dll js插入到html中
     antdCssName: `${NODE_ENV}/${bundleConfig.antd.css}`, // 把带hash的dll css插入到html中
     vendorCssName: `${NODE_ENV}/${bundleConfig.vendor.css}` // 把带hash的dll css插入到html中
-	}),
+  }),
   new HtmlWebpackPlugin({
     favicon: path.resolve(SRC_PATH, 'favicon.ico'),
     template: path.resolve(SRC_PATH, 'login.html'),
@@ -85,23 +85,23 @@ if (process.env.npm_config_analyzer) {
 }
 
 let commonConfig = {
-	entry: {
-		index: ['babel-polyfill', path.resolve(SRC_PATH, 'index.tsx')],
+  entry: {
+    index: ['babel-polyfill', path.resolve(SRC_PATH, 'index.tsx')],
     login: ['babel-polyfill', path.resolve(SRC_PATH, 'login.tsx')]
-	},
-	output: {
-		path: path.resolve(ROOT_PATH, 'dist'),
+  },
+  output: {
+    path: path.resolve(ROOT_PATH, 'dist'),
     chunkFilename: '[name].[chunkHash].bundle.js',
-		publicPath: '/'
-	},
-	module: {
-		rules: [
-			{
-				enforce: 'pre', //防止eslint在代码检查前，代码被其他loader修改
-				test: /\.jsx?$/,
-				exclude: /node_modules/,
-				use: 'happypack/loader?id=eslint'
-			},
+    publicPath: '/'
+  },
+  module: {
+    rules: [
+      {
+        enforce: 'pre', //防止eslint在代码检查前，代码被其他loader修改
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: 'happypack/loader?id=eslint'
+      },
       {
         enforce: 'pre', //防止tslint在代码检查前，代码被其他loader修改
         test: /\.tsx?$/,
@@ -109,9 +109,9 @@ let commonConfig = {
         use: 'happypack/loader?id=tslint'
       },
       {
-				test: /\.jsx?$/,
-				exclude: /node_modules/,
-				use: 'happypack/loader?id=jsx?'
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: 'happypack/loader?id=jsx?'
       },
       {
         test: /\.tsx?$/,
@@ -121,44 +121,44 @@ let commonConfig = {
           'happypack/loader?id=ts'
         ]
       },
-			{
-				test: /\.(png|jpe?g|gif|ico)(\?.*)?$/,
+      {
+        test: /\.(png|jpe?g|gif|ico)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 8192, // 将小于8192byte的图片转换成base64编码
           name: '[name].[ext]?[hash]'
         }
-			},
-			{
-				test: /\.(woff|svg|eot|ttf)(\?.*)?$/,
+      },
+      {
+        test: /\.(woff|svg|eot|ttf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 8192, // 将小于8192byte的字体转换成base64编码
         }
-			}
-		]
-	},
-	plugins,
-	resolve: {
+      }
+    ]
+  },
+  plugins,
+  resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.less', '.css', '.json'],
-		alias: {
-			'@': SRC_PATH,
-			'@root': ROOT_PATH,
-			'@components': path.resolve(SRC_PATH, 'components'),
-			'@containers': path.resolve(SRC_PATH, 'containers'),
-			'@services': path.resolve(SRC_PATH, 'services'),
-			'@constants': path.resolve(SRC_PATH, 'constants'),
-			'@utils': path.resolve(SRC_PATH, 'utils'),
-			'@styles': path.resolve(SRC_PATH, 'styles'),
-			'@imgs': path.resolve(SRC_PATH, 'imgs'),
+    alias: {
+      '@': SRC_PATH,
+      '@root': ROOT_PATH,
+      '@components': path.resolve(SRC_PATH, 'components'),
+      '@containers': path.resolve(SRC_PATH, 'containers'),
+      '@services': path.resolve(SRC_PATH, 'services'),
+      '@constants': path.resolve(SRC_PATH, 'constants'),
+      '@utils': path.resolve(SRC_PATH, 'utils'),
+      '@styles': path.resolve(SRC_PATH, 'styles'),
+      '@imgs': path.resolve(SRC_PATH, 'imgs'),
       '@redux': path.resolve(SRC_PATH, 'redux'),
       '@config': path.resolve(SRC_PATH, 'config'),
       '@decorator': path.resolve(SRC_PATH, 'decorator')
-		}
-	}
+    }
+  }
 }
 
 module.exports = webpackMerge(
-	commonConfig,
-	webpackNodeEnvConfig
+  commonConfig,
+  webpackNodeEnvConfig
 )

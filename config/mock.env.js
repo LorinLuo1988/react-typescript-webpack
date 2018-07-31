@@ -1,5 +1,5 @@
 module.exports = {
-	'process.env': {
-		ENV: JSON.stringify(process.env.ENV || 'mock')
-	}
+  'process.env': {
+    ENV: JSON.stringify(process.env.ENV || 'mock')
+  }
 }
