@@ -13,6 +13,13 @@ const SRC_PATH = path.resolve(ROOT_PATH, 'src')
 const DEV_API_ROOT_PATH = path.resolve(ROOT_PATH, 'config/dev-api-root.js')
 
 const devApiRootFileExist = utils.fsExistsSync(DEV_API_ROOT_PATH)
+
+// 如果沒有dev-api-root.js，则新建该文件
+if (!devApiRootFileExist) {
+  const devApiRootContent = `const DEV_API_ROOT = 'http://127.0.0.1:8080'\n\nmodule.exports = DEV_API_ROOT`
+  fs.writeFileSync(DEV_API_ROOT_PATH, devApiRootContent, {encoding:'utf-8'})
+}
+
 const webpackNodeEnvConfig = require(`./webpack.${NODE_ENV === 'development' ? 'dev' : 'prod'}.config.js`)
 const bundleConfig = require(`../dist/dll/${NODE_ENV}/bundle-config.json`)
 
@@ -35,6 +42,7 @@ const plugins = [
 	new HtmlWebpackPlugin({
 		favicon: path.resolve(SRC_PATH, 'favicon.ico'),
     template: path.resolve(SRC_PATH, 'index.html'),
+    filename: path.resolve(ROOT_PATH, 'dist/index.html'),
     chunks: ['index'],
     vendorBundleName: `${NODE_ENV}/${bundleConfig.vendor.js}`, // 把带hash的dll js插入到html中
     momentBundleName: `${NODE_ENV}/${bundleConfig.moment.js}`, // 把带hash的dll js插入到html中
@@ -45,9 +53,23 @@ const plugins = [
     antdCssName: `${NODE_ENV}/${bundleConfig.antd.css}`, // 把带hash的dll css插入到html中
     vendorCssName: `${NODE_ENV}/${bundleConfig.vendor.css}` // 把带hash的dll css插入到html中
 	}),
+  new HtmlWebpackPlugin({
+    favicon: path.resolve(SRC_PATH, 'favicon.ico'),
+    template: path.resolve(SRC_PATH, 'login.html'),
+    chunks: ['login'],
+    filename: path.resolve(ROOT_PATH, 'dist/login.html'),
+    vendorBundleName: `${NODE_ENV}/${bundleConfig.vendor.js}`, // 把带hash的dll js插入到html中
+    momentBundleName: `${NODE_ENV}/${bundleConfig.moment.js}`, // 把带hash的dll js插入到html中
+    antdBundleName: `${NODE_ENV}/${bundleConfig.antd.js}`, // 把带hash的dll js插入到html中
+    reactBundleName: `${NODE_ENV}/${bundleConfig.react.js}`, // 把带hash的dll js插入到html中
+    reduxBundleName: `${NODE_ENV}/${bundleConfig.redux.js}`, // 把带hash的dll js插入到html中
+    devWebpackBundleName: `${NODE_ENV}/${bundleConfig.devWebpack ? bundleConfig.devWebpack.js : ''}`, // 把带hash的dll js插入到html中
+    antdCssName: `${NODE_ENV}/${bundleConfig.antd.css}`, // 把带hash的dll css插入到html中
+    vendorCssName: `${NODE_ENV}/${bundleConfig.vendor.css}` // 把带hash的dll css插入到html中
+  }),
   happypackFactory('jsx?.eslint'),
   happypackFactory('jsx?'),
-  happypackFactory('tsx?'),
+  happypackFactory('tsx?')
 ]
 
 // 是否要启动bundle分析
@@ -57,7 +79,8 @@ if (process.env.npm_config_analyzer) {
 
 let commonConfig = {
 	entry: {
-		index: ['babel-polyfill', path.resolve(SRC_PATH, 'index.tsx')]
+		index: ['babel-polyfill', path.resolve(SRC_PATH, 'index.tsx')],
+    login: ['babel-polyfill', path.resolve(SRC_PATH, 'login.tsx')]
 	},
 	output: {
 		path: path.resolve(ROOT_PATH, 'dist'),
@@ -86,7 +109,9 @@ let commonConfig = {
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: 'happypack/loader?id=tsx?'
+        use: [
+          'happypack/loader?id=tsx?'
+        ]
       },
 			{
 				test: /\.(png|jpe?g|gif|ico)(\?.*)?$/,
@@ -123,12 +148,6 @@ let commonConfig = {
       '@decorator': path.resolve(SRC_PATH, 'decorator')
 		}
 	}
-}
-
-// 如果沒有dev-api-root.js，则新建该文件
-if (!devApiRootFileExist) {
-	const devApiRootContent = `const DEV_API_ROOT = 'http://127.0.0.1:8080'\n\nmodule.exports = DEV_API_ROOT`
-	fs.writeFileSync(DEV_API_ROOT_PATH, devApiRootContent, {encoding:'utf-8'})
 }
 
 module.exports = webpackMerge(

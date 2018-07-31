@@ -1,11 +1,9 @@
 import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
-import { Provider } from 'react-redux'
 import axios from 'axios'
-import Root from '@/containers/Root'
-import store from '@/store'
 import { API_ROOT } from '@constants'
+import Login from '@containers/Login'
 
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文
 import 'antd/dist/antd.less'
@@ -24,11 +22,9 @@ axios.defaults.timeout = 50000
 
 const renderApp = () => {
   render(
-    <Provider store={store}>
-      <LocaleProvider locale={zh_CN}>
-        <Root />
-      </LocaleProvider>
-    </Provider>,
+    <LocaleProvider locale={zh_CN}>
+      <Login></Login>
+    </LocaleProvider>,
     document.getElementById('app')
   )
 }
@@ -41,9 +37,4 @@ if (process.env.ENV === 'mock') {
   }, 'mock')
 } else {
   renderApp()
-}
-
-// react热更新
-if (process.env.NODE_ENV === 'development' && module.hot){
-  module.hot.accept()
 }

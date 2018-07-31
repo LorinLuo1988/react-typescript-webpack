@@ -74,7 +74,7 @@ class Root extends Component {
     const pathname = window.location.pathname
 
     if (!NOT_NEED_AUTH_ROUTE_PATHS.includes(pathname)) {
-      this.fetchUserInfo() 
+      // this.fetchUserInfo() 
     }
     
     setTimeout(() => {

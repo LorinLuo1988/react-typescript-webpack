@@ -2,6 +2,7 @@
 	"presets": ["env", "react", "stage-0"],
 	"plugins":[
 		"transform-class-properties",
+		"react-hot-loader/babel",
 		"syntax-dynamic-import", // 允许babel动态imports
 		"transform-decorators-legacy"
 	],
