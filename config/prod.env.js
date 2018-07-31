@@ -1,5 +1,5 @@
 module.exports = {
-	'process.env': {
-		ENV: JSON.stringify(process.env.ENV || 'prod')
-	}
+  'process.env': {
+    ENV: JSON.stringify(process.env.ENV || 'prod')
+  }
 }

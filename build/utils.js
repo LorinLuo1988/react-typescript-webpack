@@ -11,5 +11,5 @@ const fsExistsSync = path => {
 }
 
 module.exports = {
-	fsExistsSync
+  fsExistsSync
 }
