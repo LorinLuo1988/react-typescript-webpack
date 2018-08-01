@@ -9,7 +9,7 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "traceResolution": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@": ["./src"],
       "@/*": ["./src/*"],

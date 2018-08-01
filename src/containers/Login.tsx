@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styles from '@styles/containers/login/login'
+import styles from '@styles/containers/login/login.less'
 
 const Login = () => {
   return (

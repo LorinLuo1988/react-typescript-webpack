@@ -1,2 +1,2 @@
-export Root from './Root'
-export Login from './Login'
+export * from './Root'
+export  * from  './Login'
