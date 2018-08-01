@@ -2,11 +2,40 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "es2015",
     "target": "es6", // 编译成 ES2015 (Babel 将做剩下的事情)
     "jsx": "preserve",
     "allowJs": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "traceResolution": true,
+    "baseUrl": ".",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"],
+      "@root": ["./"],
+      "@root/*": ["./*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@containers": ["./src/containers"],
+      "@containers/*": ["./src/containers/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@constants": ["./src/constants"],
+      "@constants/*": ["./src/constants/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"],
+      "@styles": ["./src/styles"],
+      "@styles/*": ["./src/styles/*"],
+      "@imgs": ["./src/imgs"],
+      "@imgs/*": ["./src/imgs/*"],
+      "@redux": ["./src/redux"],
+      "@redux/*": ["./src/redux/*"],
+      "@config": ["./src/config"],
+      "@config/*": ["./src/config/*"],
+      "@decorator": ["./src/decorator"],
+      "@decorator/*": ["./src/decorator/*"]
+    }
   },
   "include": [
     "./src/**/*"

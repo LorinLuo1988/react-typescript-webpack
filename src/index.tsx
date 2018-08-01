@@ -1,9 +1,9 @@
 import 'babel-polyfill'
-import React from 'react'
+import * as React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import axios from 'axios'
-import Root from '@/containers/Root'
+import Root from '@containers/Root'
 import store from '@/store'
 import { API_ROOT } from '@constants'
 
