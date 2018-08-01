@@ -1,0 +1,1102 @@
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/src/containers/Login.tsx'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/src/containers/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/src/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/react/index.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/react/package.json'. Package ID is 'react/index.d.ts@16.3.2'.
+File 'D:/project/chatbots-system-front/node_modules/react.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/react/index.js'.
+File 'D:/project/chatbots-system-front/node_modules/react/index.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/react/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/react/index.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/react/index.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/react/index.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/react/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/react/index.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/react/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react/package.json'. Package ID is '@types/react/index.d.ts@16.4.7'.
+File 'D:/project/chatbots-system-front/node_modules/@types/react.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module '@styles/containers/login/login' from 'D:/project/chatbots-system-front/src/containers/Login.tsx'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module '@styles/containers/login/login' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/src/containers/node_modules' does not exist, skipping all lookups in it.
+Scoped package detected, looking in 'styles__containers/login/login'
+Directory 'D:/project/chatbots-system-front/src/node_modules' does not exist, skipping all lookups in it.
+Scoped package detected, looking in 'styles__containers/login/login'
+Scoped package detected, looking in 'styles__containers/login/login'
+Directory 'D:/project/node_modules' does not exist, skipping all lookups in it.
+Scoped package detected, looking in 'styles__containers/login/login'
+Directory 'D:/node_modules' does not exist, skipping all lookups in it.
+Scoped package detected, looking in 'styles__containers/login/login'
+Loading module '@styles/containers/login/login' from 'node_modules' folder, target file type 'JavaScript'.
+Directory 'D:/project/chatbots-system-front/src/containers/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/src/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/node_modules' does not exist, skipping all lookups in it.
+======== Module name '@styles/containers/login/login' was not resolved. ========
+======== Resolving module 'csstype' from 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'csstype' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/csstype/package.json'. Package ID is 'csstype/index.d.ts@2.5.6'.
+File 'D:/project/chatbots-system-front/node_modules/csstype.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/csstype.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/csstype.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts'.
+File 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts'.
+======== Module name 'csstype' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts'. ========
+======== Resolving type reference directive 'body-parser', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/body-parser'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/body-parser/package.json'. Package ID is '@types/body-parser/index.d.ts@1.17.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts'.
+======== Type reference directive 'body-parser' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'connect', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/connect'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/connect/package.json'. Package ID is '@types/connect/index.d.ts@3.4.32'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts'.
+======== Type reference directive 'connect' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'events', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/events'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/events/package.json'. Package ID is '@types/events/index.d.ts@1.2.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts'.
+======== Type reference directive 'events' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'express', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/express'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/express/package.json'. Package ID is '@types/express/index.d.ts@4.16.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts'.
+======== Type reference directive 'express' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'express-serve-static-core', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/package.json'. Package ID is '@types/express-serve-static-core/index.d.ts@4.16.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'.
+======== Type reference directive 'express-serve-static-core' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'history', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/history'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/index.d.ts@4.6.2'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'.
+======== Type reference directive 'history' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'mime', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/mime'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/mime/package.json'. Package ID is '@types/mime/index.d.ts@2.0.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts'.
+======== Type reference directive 'mime' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'mockjs', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/mockjs'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/mockjs/package.json'. Package ID is '@types/mockjs/index.d.ts@1.0.1'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/mockjs/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/mockjs/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/mockjs/index.d.ts'.
+======== Type reference directive 'mockjs' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/mockjs/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'moment', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/moment'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/moment/package.json'. Package ID is '@types/moment/index.d.ts@2.13.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/moment/index.d.ts' does not exist.
+Looking up in 'node_modules' folder, initial location 'D:/project/chatbots-system-front'.
+'package.json' has 'typings' field './moment.d.ts' that references 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/moment/package.json'. Package ID is 'moment/moment.d.ts@2.21.0'.
+File 'D:/project/chatbots-system-front/node_modules/moment.d.ts' does not exist.
+'package.json' has 'typings' field './moment.d.ts' that references 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts'.
+File 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts', result 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts'.
+======== Type reference directive 'moment' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/moment/moment.d.ts', primary: false. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'nprogress', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' has 'typings' field 'index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/nprogress/package.json'. Package ID is '@types/nprogress/index.d.ts@0.0.29'.
+'package.json' has 'typings' field 'index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts'.
+File 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts'.
+======== Type reference directive 'nprogress' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/nprogress/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'prop-types', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/prop-types'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/prop-types/package.json'. Package ID is '@types/prop-types/index.d.ts@15.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/prop-types/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/prop-types/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/prop-types/index.d.ts'.
+======== Type reference directive 'prop-types' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/prop-types/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'range-parser', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/range-parser'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/range-parser/package.json'. Package ID is '@types/range-parser/index.d.ts@1.2.2'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts'.
+======== Type reference directive 'range-parser' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react/package.json'. Package ID is '@types/react/index.d.ts@16.4.7'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Type reference directive 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-dom', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-dom'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-dom/package.json'. Package ID is '@types/react-dom/index.d.ts@16.0.6'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-dom/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-dom/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-dom/index.d.ts'.
+======== Type reference directive 'react-dom' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-dom/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-loadable', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-loadable'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/package.json'. Package ID is '@types/react-loadable/index.d.ts@5.4.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/index.d.ts'.
+======== Type reference directive 'react-loadable' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-redux', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-redux'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-redux/package.json'. Package ID is '@types/react-redux/index.d.ts@6.0.5'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts'.
+======== Type reference directive 'react-redux' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-router', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-router'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-router/package.json'. Package ID is '@types/react-router/index.d.ts@4.0.29'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'.
+======== Type reference directive 'react-router' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-router-dom', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/package.json'. Package ID is '@types/react-router-dom/index.d.ts@4.3.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts'.
+======== Type reference directive 'react-router-dom' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'react-router-redux', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/package.json'. Package ID is '@types/react-router-redux/index.d.ts@5.0.15'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts'.
+======== Type reference directive 'react-router-redux' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'serve-static', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/serve-static'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/serve-static/package.json'. Package ID is '@types/serve-static/index.d.ts@1.13.2'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'.
+======== Type reference directive 'serve-static' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'tapable', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/tapable'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/tapable/package.json'. Package ID is '@types/tapable/index.d.ts@1.0.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts'.
+======== Type reference directive 'tapable' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'uglify-js', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/uglify-js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/package.json'. Package ID is '@types/uglify-js/index.d.ts@3.0.3'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts'.
+======== Type reference directive 'uglify-js' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'viewerjs', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/viewerjs'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/viewerjs/package.json'. Package ID is '@types/viewerjs/index.d.ts@0.7.2'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/viewerjs/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/viewerjs/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/viewerjs/index.d.ts'.
+======== Type reference directive 'viewerjs' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/viewerjs/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'webpack', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/webpack'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/webpack/package.json'. Package ID is '@types/webpack/index.d.ts@4.4.8'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts'.
+======== Type reference directive 'webpack' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'webpack-env', containing file 'D:/project/chatbots-system-front/__inferred type names__.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/webpack-env'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/webpack-env/package.json'. Package ID is '@types/webpack-env/index.d.ts@1.13.6'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack-env/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/webpack-env/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/webpack-env/index.d.ts'.
+======== Type reference directive 'webpack-env' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/webpack-env/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving module 'events' from 'D:/project/chatbots-system-front/node_modules/@types/node/inspector.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field './events.js' that references 'D:/project/chatbots-system-front/node_modules/events/events.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/events/package.json'. Package ID is 'events/events.d.ts@1.1.1'.
+File 'D:/project/chatbots-system-front/node_modules/events.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field './events.js' that references 'D:/project/chatbots-system-front/node_modules/events/events.js'.
+File 'D:/project/chatbots-system-front/node_modules/events/events.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/events/events.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/events/events.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/events/events.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/events.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/events.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/events/events.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/events/events.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/events.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/events.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/events/events.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/events/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/events/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/events'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/events/package.json'. Package ID is '@types/events/index.d.ts@1.2.0'.
+File 'D:/project/chatbots-system-front/node_modules/@types/events.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts'.
+======== Module name 'events' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts'. ========
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'url' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'child_process' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'tls' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'http' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'url' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'readline' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'querystring' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'dns' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'dns' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'url' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'crypto' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'dns' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'events' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'fs' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'net' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'stream' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'tls' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'url' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'http' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'http' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+Module 'async_hooks' was resolved as locally declared ambient module in file 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Resolving module 'connect' from 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'connect' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/body-parser/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/connect.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/connect.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/connect.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/connect'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/connect/package.json'. Package ID is '@types/connect/index.d.ts@3.4.32'.
+File 'D:/project/chatbots-system-front/node_modules/@types/connect.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts'.
+======== Module name 'connect' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts'. ========
+======== Resolving module 'http' from 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'http' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/body-parser/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/http.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/http.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/http.d.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/http.d.ts' does not exist.
+Directory 'D:/project/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/node_modules' does not exist, skipping all lookups in it.
+Loading module 'http' from 'node_modules' folder, target file type 'JavaScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/body-parser/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/http.js' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/http.jsx' does not exist.
+Directory 'D:/project/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'http' was not resolved. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving module 'http' from 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'http' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/connect/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'http' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+======== Module name 'http' was not resolved. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving module 'http' from 'D:/project/chatbots-system-front/node_modules/@types/connect/index.d.ts'. ========
+Resolution for module 'http' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/connect'.
+======== Module name 'http' was not resolved. ========
+======== Resolving type reference directive 'express-serve-static-core', containing file 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/package.json'. Package ID is '@types/express-serve-static-core/index.d.ts@4.16.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'.
+======== Type reference directive 'express-serve-static-core' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'serve-static', containing file 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/serve-static'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/serve-static/package.json'. Package ID is '@types/serve-static/index.d.ts@1.13.2'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'.
+======== Type reference directive 'serve-static' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', primary: true. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving module 'http' from 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'http' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'http' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+======== Module name 'http' was not resolved. ========
+======== Resolving module 'events' from 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'events' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts'.
+======== Module name 'events' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/events/index.d.ts'. ========
+======== Resolving module 'range-parser' from 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'range-parser' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/range-parser/package.json'. Package ID is 'range-parser/index.d.ts@1.2.0'.
+File 'D:/project/chatbots-system-front/node_modules/range-parser.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/range-parser.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/range-parser.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+File 'D:/project/chatbots-system-front/node_modules/range-parser/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/range-parser/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/range-parser/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/range-parser'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/range-parser/package.json'. Package ID is '@types/range-parser/index.d.ts@1.2.2'.
+File 'D:/project/chatbots-system-front/node_modules/@types/range-parser.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts'.
+======== Module name 'range-parser' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/range-parser/index.d.ts'. ========
+======== Resolving type reference directive 'express-serve-static-core', containing file 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/package.json'. Package ID is '@types/express-serve-static-core/index.d.ts@4.16.0'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'.
+======== Type reference directive 'express-serve-static-core' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', primary: true. ========
+======== Resolving module 'express-serve-static-core' from 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'express-serve-static-core' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/serve-static/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/express-serve-static-core.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/express-serve-static-core.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/express-serve-static-core.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/package.json'. Package ID is '@types/express-serve-static-core/index.d.ts@4.16.0'.
+File 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'.
+======== Module name 'express-serve-static-core' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'. ========
+======== Resolving module 'mime' from 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'mime' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/serve-static/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'mime.js' that references 'D:/project/chatbots-system-front/node_modules/mime/mime.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/mime/package.json'. Package ID is 'mime/mime.d.ts@1.4.1'.
+File 'D:/project/chatbots-system-front/node_modules/mime.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'mime.js' that references 'D:/project/chatbots-system-front/node_modules/mime/mime.js'.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/mime/mime.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/mime/mime.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/mime.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/mime/mime.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/mime/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/mime/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/mime'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/mime/package.json'. Package ID is '@types/mime/index.d.ts@2.0.0'.
+File 'D:/project/chatbots-system-front/node_modules/@types/mime.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts'.
+======== Module name 'mime' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/mime/index.d.ts'. ========
+======== Resolving module 'body-parser' from 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'body-parser' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/body-parser/package.json'. Package ID is 'body-parser/index.d.ts@1.18.2'.
+File 'D:/project/chatbots-system-front/node_modules/body-parser.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/body-parser.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/body-parser.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+File 'D:/project/chatbots-system-front/node_modules/body-parser/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/body-parser/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/body-parser/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/body-parser'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/body-parser/package.json'. Package ID is '@types/body-parser/index.d.ts@1.17.0'.
+File 'D:/project/chatbots-system-front/node_modules/@types/body-parser.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts'.
+======== Module name 'body-parser' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/body-parser/index.d.ts'. ========
+======== Resolving module 'serve-static' from 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'serve-static' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/serve-static/package.json'. Package ID is 'serve-static/index.d.ts@1.13.2'.
+File 'D:/project/chatbots-system-front/node_modules/serve-static.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/serve-static.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/serve-static.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+File 'D:/project/chatbots-system-front/node_modules/serve-static/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/serve-static/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/serve-static/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/serve-static'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/serve-static/package.json'. Package ID is '@types/serve-static/index.d.ts@1.13.2'.
+File 'D:/project/chatbots-system-front/node_modules/@types/serve-static.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'.
+======== Module name 'serve-static' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/serve-static/index.d.ts'. ========
+======== Resolving module 'express-serve-static-core' from 'D:/project/chatbots-system-front/node_modules/@types/express/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'express-serve-static-core' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/express/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'express-serve-static-core' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'.
+======== Module name 'express-serve-static-core' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/express-serve-static-core/index.d.ts'. ========
+======== Resolving module './createBrowserHistory' from 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/createBrowserHistory.d.ts@4.6.2'.
+======== Module name './createBrowserHistory' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.d.ts'. ========
+======== Resolving module './createHashHistory' from 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/createHashHistory.d.ts@4.6.2'.
+======== Module name './createHashHistory' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.d.ts'. ========
+======== Resolving module './createMemoryHistory' from 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/createMemoryHistory.d.ts@4.6.2'.
+======== Module name './createMemoryHistory' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.d.ts'. ========
+======== Resolving module './LocationUtils' from 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/LocationUtils.d.ts@4.6.2'.
+======== Module name './LocationUtils' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils.d.ts'. ========
+======== Resolving module './PathUtils' from 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/PathUtils.d.ts@4.6.2'.
+======== Module name './PathUtils' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils.d.ts'. ========
+======== Resolving module './index' from 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/index', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/index.d.ts@4.6.2'.
+======== Module name './index' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module './DOMUtils' from 'D:/project/chatbots-system-front/node_modules/@types/history/createBrowserHistory.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/DOMUtils.d.ts@4.6.2'.
+======== Module name './DOMUtils' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.d.ts'. ========
+======== Resolving module './index' from 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.d.ts'. ========
+Resolution for module './index' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './index' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module './DOMUtils' from 'D:/project/chatbots-system-front/node_modules/@types/history/createHashHistory.d.ts'. ========
+Resolution for module './DOMUtils' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './DOMUtils' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.d.ts'. ========
+======== Resolving module './index' from 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.d.ts'. ========
+Resolution for module './index' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './index' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module './DOMUtils' from 'D:/project/chatbots-system-front/node_modules/@types/history/createMemoryHistory.d.ts'. ========
+Resolution for module './DOMUtils' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './DOMUtils' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/DOMUtils.d.ts'. ========
+======== Resolving module './index' from 'D:/project/chatbots-system-front/node_modules/@types/history/LocationUtils.d.ts'. ========
+Resolution for module './index' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './index' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module './index' from 'D:/project/chatbots-system-front/node_modules/@types/history/PathUtils.d.ts'. ========
+Resolution for module './index' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/history'.
+======== Module name './index' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/prop-types/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/prop-types/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module 'csstype' from 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+Resolution for module 'csstype' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types/react'.
+======== Module name 'csstype' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/csstype/index.d.ts'. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/react-dom/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-dom/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving type reference directive 'react', containing file 'D:/project/chatbots-system-front/node_modules/@types/react-loadable/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react/package.json'. Package ID is '@types/react/index.d.ts@16.4.7'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Type reference directive 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', primary: true. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/react.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/react.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/react.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/@types' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module 'redux' from 'D:/project/chatbots-system-front/node_modules/@types/react-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'redux' from 'node_modules' folder, target file type 'TypeScript'.
+'package.json' has 'typings' field './index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/package.json'. Package ID is 'redux/index.d.ts@4.0.0'.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux.d.ts' does not exist.
+'package.json' has 'typings' field './index.d.ts' that references 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'.
+======== Module name 'redux' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module 'history' from 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'history' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/history/index.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/history/package.json'. Package ID is 'history/index.d.ts@4.7.2'.
+File 'D:/project/chatbots-system-front/node_modules/history.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/history/index.js'.
+File 'D:/project/chatbots-system-front/node_modules/history/index.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/history/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/history/index.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/history/index.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/history/index.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/history/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/history/index.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/history/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/history/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/history'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/history/package.json'. Package ID is '@types/history/index.d.ts@4.6.2'.
+File 'D:/project/chatbots-system-front/node_modules/@types/history.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'.
+======== Module name 'history' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module 'react-router' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react-router' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/node_modules' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/react-router/index.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/react-router/package.json'. Package ID is 'react-router/index.d.ts@4.2.0'.
+File 'D:/project/chatbots-system-front/node_modules/react-router.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'index.js' that references 'D:/project/chatbots-system-front/node_modules/react-router/index.js'.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/react-router/index.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/react-router/index.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/react-router/index.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/react-router/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/react-router'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/react-router/package.json'. Package ID is '@types/react-router/index.d.ts@4.0.29'.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-router.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'.
+======== Module name 'react-router' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module 'history' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'history' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-dom/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'history' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'.
+======== Module name 'history' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module 'redux' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'redux' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'redux' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'.
+======== Module name 'redux' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-redux/node_modules/redux/index.d.ts'. ========
+======== Resolving module 'history' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'history' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'history' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'.
+======== Module name 'history' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/history/index.d.ts'. ========
+======== Resolving module 'react' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'.
+======== Module name 'react' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react/index.d.ts'. ========
+======== Resolving module 'react-router' from 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'react-router' from 'node_modules' folder, target file type 'TypeScript'.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/react-router-redux/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'react-router' was found in cache from location 'D:/project/chatbots-system-front/node_modules/@types'.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'.
+======== Module name 'react-router' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/react-router/index.d.ts'. ========
+======== Resolving module 'source-map' from 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'source-map' from 'node_modules' folder, target file type 'TypeScript'.
+'package.json' has 'typings' field 'source-map' that references 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/package.json'. Package ID is 'source-map/source-map/index.d.ts@0.6.1'.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map.d.ts' does not exist.
+'package.json' has 'typings' field 'source-map' that references 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map'.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map' does not exist.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts'.
+======== Module name 'source-map' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts'. ========
+======== Resolving type reference directive 'node', containing file 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts', root directory 'D:/project/chatbots-system-front/node_modules/@types'. ========
+Resolving with primary search path 'D:/project/chatbots-system-front/node_modules/@types'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/node'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/node/package.json'. Package ID is '@types/node/index.d.ts@10.5.4'.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/node/index.d.ts', primary: true. ========
+======== Resolving module 'tapable' from 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'tapable' from 'node_modules' folder, target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/tapable.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/tapable.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/tapable.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'lib/index.js' that references 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/tapable/package.json'. Package ID is 'tapable/lib/index.d.ts@1.0.0'.
+File 'D:/project/chatbots-system-front/node_modules/tapable.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'lib/index.js' that references 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js'.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js' exist - use it as a name resolution result.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js.d.ts' does not exist.
+File name 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js' has a '.js' extension - stripping it.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/tapable/lib/index.js' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/tapable/index.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/index.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/tapable/index.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/tapable'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/tapable/package.json'. Package ID is '@types/tapable/index.d.ts@1.0.4'.
+File 'D:/project/chatbots-system-front/node_modules/@types/tapable.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts'.
+======== Module name 'tapable' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/tapable/index.d.ts'. ========
+======== Resolving module 'uglify-js' from 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'uglify-js' from 'node_modules' folder, target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/uglify-js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/uglify-js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/uglify-js.d.ts' does not exist.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'D:/project/chatbots-system-front/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File 'D:/project/chatbots-system-front/node_modules/uglify-js.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/uglify-js.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/uglify-js.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field '' that references 'D:/project/chatbots-system-front/node_modules/@types/uglify-js'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/package.json'. Package ID is '@types/uglify-js/index.d.ts@3.0.3'.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts'.
+======== Module name 'uglify-js' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/uglify-js/index.d.ts'. ========
+======== Resolving module 'source-map' from 'D:/project/chatbots-system-front/node_modules/@types/webpack/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module 'source-map' from 'node_modules' folder, target file type 'TypeScript'.
+'package.json' has 'typings' field 'source-map' that references 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map'.
+Found 'package.json' at 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/package.json'. Package ID is 'source-map/source-map/index.d.ts@0.6.1'.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map.d.ts' does not exist.
+'package.json' has 'typings' field 'source-map' that references 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map'.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map' does not exist.
+Loading module as file / folder, candidate module location 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map', target file type 'TypeScript'.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.ts' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.tsx' does not exist.
+File 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.d.ts' exist - use it as a name resolution result.
+Resolving real path for 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.d.ts', result 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.d.ts'.
+======== Module name 'source-map' was successfully resolved to 'D:/project/chatbots-system-front/node_modules/@types/webpack/node_modules/source-map/source-map.d.ts'. ========
+node_modules/@types/webpack/index.d.ts(727,34): error TS2304: Cannot find name 'Set'.
+node_modules/@types/webpack/index.d.ts(929,26): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(932,31): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(933,26): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(935,23): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(945,34): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(946,34): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(950,29): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(951,32): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(1053,25): error TS2304: Cannot find name 'Map'.
+node_modules/@types/webpack/index.d.ts(1054,28): error TS2304: Cannot find name 'Map'.
+src/containers/Login.tsx(2,25): error TS2307: Cannot find module '@styles/containers/login/login'.
+src/containers/Login.tsx(6,5): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.

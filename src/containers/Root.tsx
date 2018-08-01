@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import * as PropTypes from 'prop-types'
@@ -25,19 +25,19 @@ const mapActionToProps = dispatch => ({
 })
 
 @loadingDecorator
-class Root extends Component {
+class Root extends React.Component  {
   static propTypes = {
     updateRouterMenuAction: PropTypes.func.isRequired,
     selectedKeys: PropTypes.array.isRequired,
     router: PropTypes.object.isRequired
   }
-  constructor (props) {
+  state = {
+    Layout: MainLayout,
+    loadingUserInfo: false,
+    userName: '' // 登陆用户名
+  }
+  constructor (props: any) {
     super(props)
-    this.state = {
-      Layout: MainLayout,
-      loadingUserInfo: false,
-      userName: '' // 登陆用户名
-    }
 
     this.swicthLayout = this.swicthLayout.bind(this)
     this.handleRouterChange = this.handleRouterChange.bind(this)

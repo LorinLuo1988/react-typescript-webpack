@@ -17,6 +17,13 @@ import '@/styles/common'
 // 全局异步请求拦截
 import '@/utils/interceptor'
 
+// 申明能被ts识别的全局变量
+declare global {
+  interface Window {
+    $history: boolean
+  }
+}
+
 // 异步请求公共配置
 axios.defaults.baseURL = API_ROOT[process.env.ENV]
 axios.defaults.headers.post['Content-Type'] = 'application/json'

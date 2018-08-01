@@ -1,6 +1,6 @@
-import React from 'react'
+import * as React from 'react'
 import 'nprogress/nprogress.css'
-import Nprogress from 'nprogress'
+import * as Nprogress from 'nprogress'
 import * as PropTypes from 'prop-types'
 
 const PageRouterSwitchProgress = WrappedComponent => {

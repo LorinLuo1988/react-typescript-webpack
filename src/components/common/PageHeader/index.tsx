@@ -1,9 +1,14 @@
-import React from 'react'
+import * as React from 'react'
 import { Card } from 'antd'
-import PropTypes from 'prop-types'
-import styles from './style'
+import * as PropTypes from 'prop-types'
+import styles from './style.less'
 
-const PageHeader = ({title, extra}) => {
+interface IPageHeader {
+  title?: React.ReactNode,
+  extra?: React.ReactNode
+}
+
+const PageHeader: React.SFC<IPageHeader> = ({title, extra}) => {
   return (
     <Card
       className={styles['page-header']}

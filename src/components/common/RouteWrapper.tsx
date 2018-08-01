@@ -1,8 +1,12 @@
-import React from 'react'
+import * as React from 'react'
 import { Route, Redirect, Switch } from 'react-router-dom'
-import PropTypes from 'prop-types'
+import * as PropTypes from 'prop-types'
 
-const RouteWrapper = ({ routes = [] }) => {
+interface IRouteWrapper {
+  routes: any[]
+}
+
+const RouteWrapper: React.SFC<IRouteWrapper> = ({ routes = [] }) => {
   const Routes = routes.map(route => (
     <Route
       key={route.path}

@@ -34,7 +34,7 @@ if (process.env.ENV === 'mock') {
   require.ensure([], require => {
     require('./mock')
     renderApp()
-  }, 'mock')
+  })
 } else {
   renderApp()
 }

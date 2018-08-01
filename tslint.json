@@ -42,6 +42,10 @@
     // jsx表达式中是否允许写多行js语句
     "jsx-no-multiline-js": false,
     // 对多行JSX元素执行一致的样式
-    "jsx-alignment": false
+    "jsx-alignment": false,
+    // interface是否以I开头
+    "interface-name": false,
+    // 一个文件最多可以声明多少个类
+    "max-classes-per-file": 5
   }
 }

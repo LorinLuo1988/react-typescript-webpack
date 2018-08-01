@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es2015",
+    "noImplicitAny": false,
+    "module": "commonjs",
     "target": "es6", // 编译成 ES2015 (Babel 将做剩下的事情)
     "jsx": "preserve",
     "allowJs": true,
     "sourceMap": true,
     "moduleResolution": "node",
     "traceResolution": true,
+    "experimentalDecorators": true,
     "baseUrl": "./",
     "paths": {
       "@": ["./src"],

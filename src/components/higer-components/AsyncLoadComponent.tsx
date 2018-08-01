@@ -1,4 +1,4 @@
-import Loadable from 'react-loadable'
+import * as Loadable from 'react-loadable'
 import { Loading } from '@components/common'
 
 const AsyncLoadComponent = loader => Loadable({

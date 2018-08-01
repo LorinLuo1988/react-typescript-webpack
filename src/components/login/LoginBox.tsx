@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react'
+import * as React from 'react'
 import style from '@styles/containers/login/loginBox.less'
 import { Form, Input, Icon, Button } from 'antd'
-import PropTypes from 'prop-types'
+import * as PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { loginAction } from '@/redux/login'
 
@@ -19,9 +19,22 @@ const mapStateToProps = () => {
   return {}
 }
 
+interface IMapDispatchToProps<T = any> {
+  [key: string]: (...args: any[]) => T
+}
+
+interface IMapStateToProps<T = any> {
+  [key: string]: T
+}
+
+interface Props<M extends IMapDispatchToProps, T extends IMapStateToProps> {
+  actions: M,
+  store: T
+}
+
 @Form.create()
 @connect(mapStateToProps, mapDispatchToProps)
-class LoginForm extends PureComponent {
+class LoginForm extends React.PureComponent<Props, any> {
   static propTypes = {
     form: PropTypes.object,
     loginAction: PropTypes.func
@@ -30,7 +43,7 @@ class LoginForm extends PureComponent {
     super(props)
   }
   handleSubmit = () => {
-    this.props.form.validateFields((err, values) => {
+    (this.props as any).form.validateFields((err, values) => {
       if (!err) {
         this.props.loginAction(values)
       }
@@ -39,8 +52,7 @@ class LoginForm extends PureComponent {
   render () {
     const { getFieldDecorator } = this.props.form 
     return (
-      <Form
-        hideRequiredMark>
+      <Form hideRequiredMark={true}>
         <FormItem>
           {
             getFieldDecorator('loginName', {
@@ -58,7 +70,7 @@ class LoginForm extends PureComponent {
               rules: [{ required: true, message: '请输入密码' }]
             })(
               <Input
-                type='password'
+                type="password"
                 onPressEnter={this.handleSubmit}
                 prefix={<Icon type="lock" style={{ fontSize: 13 }} />}
                 placeholder="请输入密码" />
@@ -74,7 +86,7 @@ class LoginForm extends PureComponent {
   }
 }
 
-class LoginBox extends PureComponent {
+class LoginBox extends React.PureComponent {
   constructor (props) {
     super(props)
   }
